@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(20, 18, 34);
+    color: rgb(255, 255, 255);
+}
+
+.Container {
+    margin: 10% 0%;
+}
+
+.Container h1 /* TITLE HERE*/
+{  
+    font-weight: 900;
+    font-size: 7vw;
+}
+
+.Container h3  /* firstname Lastname*/
+ {
+    font-weight: 650;
+    font-size: 3vw;
+}

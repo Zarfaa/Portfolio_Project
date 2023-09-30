@@ -1,0 +1,27 @@
+nav{
+    background-color: rgb(20, 18, 34);
+    border-bottom: 2px solid rgb(18, 12, 20); /*underline effect on header*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*underline shadow on header*/
+}
+
+.nav-link{
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.nav-link:hover , .navbar-brand:hover{
+    color: rgb(255,255,255);
+}
+
+@media screen and (max-width:768px){
+    .logo {
+      width: 3vw;
+    }
+}

@@ -1,0 +1,86 @@
+.text_vertical{
+    writing-mode: vertical-rl; 
+    text-orientation:  mixed; 
+    white-space: nowrap; 
+    font-weight: 900;
+    font-size: 9rem;
+    color: rgb(122, 120, 120);
+}
+
+.text{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(109, 109, 109);
+    margin-left: 28%;
+}
+
+.contact_Container{
+    display: flex;
+    justify-content: center;
+    margin: 10% 5% ;
+}
+
+.Contact_details {
+    margin-top: 15%;
+}
+
+@media screen and (min-width:1440px){
+    .contact_Container{
+        display: flex;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .text{
+        font-weight: 700;
+        font-size: 3rem;
+        color: rgb(109, 109, 109);
+        margin-left: 18%;
+    }
+    
+}
+
+@media screen and (max-width:1040px){
+    .text{
+        font-weight: 700;
+        font-size: 3rem;
+        color: rgb(109, 109, 109);
+        margin-left: 40%;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .text{
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: rgb(109, 109, 109);
+        margin-left: 38%;
+    }
+
+    .text_vertical{
+        writing-mode: vertical-rl; 
+        text-orientation:  mixed; 
+        white-space: nowrap; 
+        font-weight: 900;
+        font-size: 4rem;
+        color: rgb(122, 120, 120);
+    }
+    
+    .contact_Container{
+        display: flex;
+        justify-content: center;
+        margin-top: 5% ;
+    }
+    
+    .Contact_details {
+        margin-top: 10%;
+    }
+
+    .Contact_details h4 , .Contact_details h3{
+        font-size: 3vw;
+    }
+    .Contact_details p , .Contact_details span {
+        font-size: 2vw;
+    }
+}
