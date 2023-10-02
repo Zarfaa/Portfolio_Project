@@ -5,17 +5,18 @@ import "./CV.css"
 const CV = () => {
   return (
     <>
-      <div className='container Cv_Container'>
-        <div className='d-flex align-items-center mx-lg-3 mb-lg-5 gap-lg-5'>
+    <div className='Cv_Container'>
+      <div className='container '>
+        <div className='d-flex align-items-center mb-lg-5 gap-lg-5'>
           <div className="col-md-3 col-3 col-lg-3"><img className='cv_img' src={Photo} alt="profile" /></div>
-          <div className="col-md-4 col-sm-4 col-4"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
+          <div className="col-md-4 col-4"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
           <div className="col-4 text-end">
             <h5>Lorem ipsum dolor sit</h5>
             <p>Lorem ipsum dolor sit amet consectetur <br />Sit malesuada enim massa auctor pharetra purus orci</p>
           </div>
         </div>
-        <div className='d-flex gap-5'>
-          <div className="col-md-4 col-sm-4 col-4 ">
+        <div className='d-flex gap-md-5 gap-xs-3'>
+          <div className="col-md-4 col-4 ">
             <div className='mb-lg-5' >
               <h3>Education</h3>
               <h5>Lorem ipsum dolor</h5>
@@ -45,7 +46,7 @@ const CV = () => {
             </div>
           </div>
 
-          <div className="col-md-4 col-sm-4 col-4">
+          <div className="col-md-4  col-4">
               <h3>Experience</h3>
               <div className='mt-2 mb-lg-5'>
               <h5 >Freelance Graphic Designer</h5>
@@ -71,7 +72,7 @@ const CV = () => {
             </div>
           </div>
 
-          <div className="col-md-4 col-sm-4 col-4 ms-3">
+          <div className="col-md-4 col-4 ms-3">
             <div className='mb-lg-5'>
               <h3>Contact</h3>
               <h5>Email</h5>
@@ -108,6 +109,7 @@ const CV = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   )

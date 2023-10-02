@@ -1,3 +1,9 @@
+.contact_Container{
+    display: flex;
+    justify-content: center;
+    margin: 15% 5%;
+}
+
 .text_vertical{
     writing-mode: vertical-rl; 
     text-orientation:  mixed; 
@@ -11,13 +17,6 @@
     font-weight: 700;
     font-size: 3rem;
     color: rgb(109, 109, 109);
-    margin-left: 28%;
-}
-
-.contact_Container{
-    display: flex;
-    justify-content: center;
-    margin: 10% 5% ;
 }
 
 .Contact_details {
@@ -27,35 +26,61 @@
 @media screen and (min-width:1440px){
     .contact_Container{
         display: flex;
-        margin-left: 20%;
-        margin-top: 5%;
+        margin-top: 10%;
+        justify-content: center;
+        margin-left: 15%;
     }
 
     .text{
-        font-weight: 700;
+        font-weight: 800;
         font-size: 3rem;
         color: rgb(109, 109, 109);
-        margin-left: 18%;
+        margin-right: 45%;
     }
     
 }
 
-@media screen and (max-width:1040px){
+@media screen and (min-width: 1440px){
+
     .text{
-        font-weight: 700;
+        font-weight: 800;
         font-size: 3rem;
         color: rgb(109, 109, 109);
-        margin-left: 40%;
+        margin-left: 1%;
     }
     
 }
+
+@media screen and (width: 1024px) {
+
+    .text{
+        font-weight: 800;
+        font-size: 3rem;
+        color: rgb(109, 109, 109);
+          margin-left: 25%;
+    }
+    
+}
+
+@media screen and (width: 768px) {
+
+    .text{
+        font-weight: 800;
+        font-size: 3rem;
+        color: rgb(109, 109, 109);
+        margin-left: 70%;
+    }
+    
+}
+
+
+
 
 @media screen and (max-width:500px){
     .text{
         font-weight: 700;
         font-size: 1.8rem;
         color: rgb(109, 109, 109);
-        margin-left: 38%;
     }
 
     .text_vertical{

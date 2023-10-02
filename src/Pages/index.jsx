@@ -7,10 +7,10 @@ import "./index.css"
 const index = () => {
     return (
         <>
-        <section>
+        <section className='Home'>
             <div className='d-flex flex-column align-items-center Container'>
                 <div>
-                    <h1>TITLE HERE</h1>
+                    <h1>DIGITAL DESIGNER</h1>
                 </div>
                 <div>
                     <h3>Firstname Lastname</h3>

@@ -4,9 +4,11 @@
 
 .Cv_Container{
     background-color: rgb(43, 37, 48);
-    padding: 5%;
+    padding: 5em;
     line-height: 1.2rem;
 }
+
+
 
 @media screen and (max-width:768px) {
     .Cv_Container p{
