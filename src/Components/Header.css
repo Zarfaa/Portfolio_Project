@@ -12,12 +12,10 @@ nav{
     z-index: 1000;
   }
   
-  body {
-    padding: 1.5vw 1vw; 
-  }
   
   .navbar {
     transition: top 0.3s;
+    padding: 2vw;
   }
   
 
