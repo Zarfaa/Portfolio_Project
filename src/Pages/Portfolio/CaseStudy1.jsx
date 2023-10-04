@@ -32,7 +32,7 @@ const CaseStudy1 = () => {
                         <img src={Image2} alt='Project 2' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
                     </div>
 
-                    <div className='col-md-6 mb-1'>
+                    <div className='col-md-6 mb-1'>{/*copy two col-md-6 divs for two images in a row */}
                         <img src={Image3} alt='Project 3' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
                     </div>
                     <div className='col-md-6 mb-1'>
@@ -43,7 +43,7 @@ const CaseStudy1 = () => {
                         <img src={Image5} alt='Project 5' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "97%" }} />
                     </div>
 
-                    <div className='col-md-12 mb-1'>
+                    <div className='col-md-12 mb-1'> {/*copy this div for single image*/}
                         <img src={Image6} alt='Project 6' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "97%" }} />
                     </div>
 
