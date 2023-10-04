@@ -7,12 +7,12 @@ const CaseStudy3 = () => {
     return (
         <>
         <div className='container'>
-            <div className='d-flex gap-5 mt-5'>
-                <div className='col-md-5 col-lg-5 col-xxl-5 me-2 '>
+            <div className='d-flex  mt-5'>
+                <div className='col-md-5  '>
                     <h1 >Optic Software</h1>
                     <span >Figma</span>
                 </div>
-                <div className='col-md-5 col-lg-5 col-xxl-5  ms-5 mt-3'>
+                <div className='col-md-5 Margin'>
                 <p >Ui Design for automation tool</p>
                 </div>
             </div>

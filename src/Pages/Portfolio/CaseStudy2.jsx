@@ -10,12 +10,12 @@ import Image5 from "../../Assets/Project2.png"
 const CaseStudy2 = () => {
     return (
         <div className='container' >
-            <div className='d-flex gap-5 mt-5'>
-                <div className='col-md-5 me-3'>
+            <div className='d-flex mt-5'>
+                <div className='col-md-5 '>
                     <h1>Personal Portfolio</h1>
                     <span>Photoshop and Figma</span>
                 </div>
-                <div className='col-md-5 ms-5 mt-3'>
+                <div className='col-md-5 Margin '>
                     <p >Web Design for my personal portfolio</p>
                 </div>
             </div>

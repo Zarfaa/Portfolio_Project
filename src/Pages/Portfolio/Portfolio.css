@@ -1,11 +1,5 @@
-.Projects img{
-    width:100%;
-    height: 100%;
-}
-
-.Projects{
- margin-left: 3%;
- margin-right: 3%;
+.margin{
+ margin: 5%;
 }
 
 .main{
@@ -42,6 +36,13 @@
     opacity: 3;
   }
   
+ 
+.full-viewport{
+  width: 100%;
+}
+
+
+
 
 
 
