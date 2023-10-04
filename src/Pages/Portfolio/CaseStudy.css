@@ -18,6 +18,11 @@
     font-size: 1.5vw;
 }
 
+.AllMargin{
+    margin: 1em 7em;
+}
+
+
 @media screen and (min-width:1440px) {
     .CaseStudy_Container{
         margin: 5% 35%;

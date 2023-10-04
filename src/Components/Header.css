@@ -5,19 +5,16 @@ nav{
 }
 
 
-.navbar-fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  
-  .navbar {
-    transition: top 0.3s;
-    padding: 2vw;
-  }
-  
+.navbar-scroll-up {
+  transform: translateY(-70px);
+  transition: transform 0.5s;
+}
+
+.navbar-scroll-down {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+
 
 .nav-link{
     color: rgb(255,255,255);

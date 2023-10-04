@@ -12,58 +12,54 @@ import Image9 from "../../Assets/Project1.9.png";
 
 const CaseStudy1 = () => {
     return (
-        <>
-        <div className='container'>
-            <div className='d-flex '>
-                <div className='col-md-5 mt-3 '>
-                    <h1 className='text-start mt-3'>PickShare</h1>
-                    <span className="Text-bold">Photoshop, Illustrator, and Figma</span>
+        <div className='AllMargin'>
+            <div className='container-fluid '>
+                <div className='d-flex'>
+                    <div className='col-md-5 mt-3 ms-4'>
+                        <h1 className=' mt-3 '>PickShare</h1>
+                        <span className="Text-bold">Photoshop, Illustrator, and Figma</span>
+                    </div>
+                    <div className='col-md-5 Margin'>
+                        <p>Brand Identity and Web Design for PickShare, a sports analytics platform</p>
+                    </div>
                 </div>
-                <div className='col-md-5 Margin'>
-                    <p>Brand Identity and Web Design for PickShare, a sports analytics platform</p>
+
+                <div className='row g-4'>
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image1} alt='Project 1' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
+                    </div>
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image2} alt='Project 2' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
+                    </div>
+
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image3} alt='Project 3' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
+                    </div>
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image4} alt='Project 4' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "95%" }} />
+                    </div>
+
+                    <div className='col-md-12 mb-1'>
+                        <img src={Image5} alt='Project 5' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "97%" }} />
+                    </div>
+
+                    <div className='col-md-12 mb-1'>
+                        <img src={Image6} alt='Project 6' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "97%" }} />
+                    </div>
+
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image7} alt='Project 7' className='img-fluid mx-auto d-block' style={{ margin: '0.2em', width: "95%" }} />
+                    </div>
+                    <div className='col-md-6 mb-1'>
+                        <img src={Image8} alt='Project 8' className='img-fluid mx-auto d-block' style={{ margin: '0.2em', width: "95%" }} />
+                    </div>
+
+                    <div className='col-md-12 mb-1'>
+                        <img src={Image9} alt='Project 9' className='img-fluid mx-auto d-block' style={{ margin: '0.5em', width: "97%" }} />
+                    </div>
                 </div>
             </div>
-
-
-            <div className='row g-4'>
-                <div className='col-md-6 mb-1'>
-                    <img src={Image1} alt='Project 1' className='img-fluid' />
-                </div>
-                <div className='col-md-6 mb-1'>
-                    <img src={Image2} alt='Project 2' className='img-fluid' />
-                </div>
-
-                <div className='col-md-6 mb-1'>
-                    <img src={Image3} alt='Project 3' className='img-fluid' />
-                </div>
-                <div className='col-md-6 mb-1'>
-                    <img src={Image4} alt='Project 4' className='img-fluid' style={{width: "99.5%"}} />
-                </div>
-
-                <div className='col-md-12 mb-1'>
-                    <img src={Image5} alt='Project 5' className='img-fluid' style={{width: "99.7%"}} />
-                </div>
-
-                <div className='col-md-12 mb-1'>
-                    <img src={Image6} alt='Project 6' className='img-fluid' style={{width: "99.7%"}} />
-                </div>
-
-                <div className='col-md-6 mb-1'>
-                    <img src={Image7} alt='Project 7' className='img-fluid' />
-                </div>
-                <div className='col-md-6 mb-1'>
-                    <img src={Image8} alt='Project 8' className='img-fluid' style={{width: "99.5%"}} />
-                </div>
-
-                <div className='col-md-12 mb-1'>
-                    <img src={Image9} alt='Project 9' className='img-fluid' style={{width: "99.6%"}}/>
-                </div>
-            </div>
-            </div>
-  
- 
-            </>
-
+        </div>
     );
 };
 

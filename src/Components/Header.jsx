@@ -5,18 +5,26 @@ import "./Header.css";
 
 const Header = () => {
   const location = useLocation();
-  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollY = window.scrollY;
-      setIsNavbarFixed(scrollY > 20);
+      const currentScrollPos = window.pageYOffset;
+
+      setVisible(
+        (prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) ||
+          currentScrollPos === 0
+      );
+      setPrevScrollPos(currentScrollPos);
     };
+
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [prevScrollPos]);
 
 
   const renderNavbarTabs = () => {
@@ -60,7 +68,7 @@ const Header = () => {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg ${isNavbarFixed ? "navbar-fixed" : ""}`}>
+    <nav className={`navbar navbar-expand-lg ${visible ? "navbar-scroll-down" : "navbar-scroll-up"}`}>
       <div className="container-fluid">
         <a className="navbar-brand marginLeft" href="/">
           <img className="logo me-3" src={Logo} alt="logo" />
