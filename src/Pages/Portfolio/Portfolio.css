@@ -3,10 +3,45 @@
     height: 100%;
 }
 
+.Projects{
+ margin-left: 3%;
+ margin-right: 3%;
+}
+
 .main{
     width:100%
 }
 
 .Portfolio_Container{
- margin-top: 10%;
+ margin-top: 5%;
 }
+
+.CaseStudy {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96.5%;
+    margin-left: 2%;
+    height: 100%;
+    background-color: rgba(109, 109, 109 , 0.5);
+    font-size: 2vw;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .CaseStudy:hover .Overlay {
+    opacity: 3;
+  }
+  
+
+
+

@@ -1,14 +1,47 @@
 .cv_img{
     width: 10vw;
+    border-radius: 50%;
+}
+
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10em;
+    gap: 15%;
+    flex-wrap: wrap
+}
+
+.Flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%  5em;
+    gap: 4%;
+    flex-wrap: wrap
+}
+
+.Flex_Item1{
+    flex: 1;
+}
+
+.flex_item5 {
+    flex:4
+}
+
+.flex_item2 {
+    flex:3
+}
+
+.flex_item {
+    flex: 1.5;
 }
 
 .Cv_Container{
     background-color: rgb(43, 37, 48);
-    padding: 5em;
+    padding: 2rem; 
+    margin: 0;
     line-height: 1.2rem;
 }
-
-
 
 @media screen and (max-width:768px) {
     .Cv_Container p{
@@ -36,3 +69,5 @@
         line-height: 1rem;
     }
 }
+
+

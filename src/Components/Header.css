@@ -10,6 +10,15 @@ nav{
     font-size: 1.2rem;
 }
 
+.marginRight{
+   padding-right: 5em;
+}
+
+.marginLeft{
+    padding-left: 3em;
+ }
+ 
+
 .navbar-brand{
     color: rgb(255,255,255);
     font-weight: 700;
@@ -24,4 +33,19 @@ nav{
     .logo {
       width: 3vw;
     }
+}
+
+
+@media screen and (min-width:1440px){
+    .logo {
+      width: 3vw;
+    }
+
+    .marginRight{
+        padding-right: 5em;
+     }
+     
+     .marginLeft{
+         padding-left: 5em;
+      }
 }

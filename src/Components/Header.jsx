@@ -11,17 +11,17 @@ const Header = () => {
       return (
         <>
           <li className="nav-item">
-            <a className="nav-link" to="/about">
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" to="/portfolio">
+            <a className="nav-link" href="#portfolio">
               Portfolio
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" to="/contact">
+          <li className="nav-item marginRight ">
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>
@@ -29,7 +29,7 @@ const Header = () => {
       );
     } else if (location.pathname.startsWith("/CaseStudy")) {
       return (
-        <li className="nav-item">
+        <li className="nav-item marginRight">
           <Link className="nav-link" to="/">
             Home
           </Link>
@@ -37,7 +37,7 @@ const Header = () => {
       );
     } else {
       return (
-        <li className="nav-item">
+        <li className="nav-item marginRight">
           <Link className="nav-link" to="/">
             Home
           </Link>
@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand ms-5" href="/">
+        <a className="navbar-brand marginLeft" href="/">
           <img className="logo" src={Logo} alt="logo" />
           Digital Designer
         </a>
