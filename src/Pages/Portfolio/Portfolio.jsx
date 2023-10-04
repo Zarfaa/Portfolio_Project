@@ -37,6 +37,7 @@ const Portfolio = () => {
       ) : (
         <div className='margin'>
         <div className='container-fluid'>
+          
         <div className='row mt-5 '>
           <div className='col-md-6'>
             <div className='row mb-3'>

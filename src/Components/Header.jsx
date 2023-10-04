@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../Assets/Logo.png";
 import "./Header.css";
 
 const Header = () => {
   const location = useLocation();
+  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      setIsNavbarFixed(scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
 
   const renderNavbarTabs = () => {
     if (location.pathname === "/") {
@@ -47,7 +60,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className={`navbar navbar-expand-lg ${isNavbarFixed ? "navbar-fixed" : ""}`}>
       <div className="container-fluid">
         <a className="navbar-brand marginLeft" href="/">
           <img className="logo me-3" src={Logo} alt="logo" />

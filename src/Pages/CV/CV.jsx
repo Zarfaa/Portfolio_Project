@@ -8,11 +8,11 @@ const CV = () => {
       <div className='Cv_Container '>
 
           <div className='Flex1'>
-            <div className="Flex_Item1 ms-5">
+            <div className="Flex_Item1 ">
               <img className='cv_img' src={Photo} alt="profile" />
             </div>
-            <div className="Flex_Item1"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
-            <div className="Flex_Item1  text-end">
+            <div className="Flex_Item2"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
+            <div className="Flex_Item3">
               <h5>Lorem ipsum dolor sit</h5>
               <p>Lorem ipsum dolor sit amet consectetur <br />Sit malesuada enim massa auctor pharetra purus orci</p>
             </div>
