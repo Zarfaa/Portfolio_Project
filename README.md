@@ -5,7 +5,7 @@ Personal Portfolio website
 
 `Clone the project -- git clone https://github.com/Zarfaa/Portfolio`<br><br>
 
-`Go to the project directory: cd Portfolio`<br><br>
+`Go to the project directory: cd portfolio-app`<br><br>
 
 `Install dependencies: npm install`<br><br>
 
