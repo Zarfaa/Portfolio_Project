@@ -14,10 +14,10 @@ const CaseStudy1 = () => {
     return (
         <>
         <div className='container'>
-            <div className='d-flex mt-5'>
-                <div className='col-md-5 '>
-                    <h1 className='text-start'>PickShare</h1>
-                    <span>Photoshop, Illustrator, and Figma</span>
+            <div className='d-flex '>
+                <div className='col-md-5 mt-3 '>
+                    <h1 className='text-start mt-3'>PickShare</h1>
+                    <span className="Text-bold">Photoshop, Illustrator, and Figma</span>
                 </div>
                 <div className='col-md-5 Margin'>
                     <p>Brand Identity and Web Design for PickShare, a sports analytics platform</p>
@@ -37,26 +37,26 @@ const CaseStudy1 = () => {
                     <img src={Image3} alt='Project 3' className='img-fluid' />
                 </div>
                 <div className='col-md-6 mb-1'>
-                    <img src={Image4} alt='Project 4' className='img-fluid' />
+                    <img src={Image4} alt='Project 4' className='img-fluid' style={{width: "99.5%"}} />
                 </div>
 
                 <div className='col-md-12 mb-1'>
-                    <img src={Image5} alt='Project 5' className='img-fluid' />
+                    <img src={Image5} alt='Project 5' className='img-fluid' style={{width: "99.7%"}} />
                 </div>
 
                 <div className='col-md-12 mb-1'>
-                    <img src={Image6} alt='Project 6' className='img-fluid' />
+                    <img src={Image6} alt='Project 6' className='img-fluid' style={{width: "99.7%"}} />
                 </div>
 
                 <div className='col-md-6 mb-1'>
                     <img src={Image7} alt='Project 7' className='img-fluid' />
                 </div>
-                <div className='col-md-6 mb-4'>
-                    <img src={Image8} alt='Project 8' className='img-fluid' />
+                <div className='col-md-6 mb-1'>
+                    <img src={Image8} alt='Project 8' className='img-fluid' style={{width: "99.5%"}} />
                 </div>
 
                 <div className='col-md-12 mb-1'>
-                    <img src={Image9} alt='Project 9' className='img-fluid' />
+                    <img src={Image9} alt='Project 9' className='img-fluid' style={{width: "99.6%"}}/>
                 </div>
             </div>
             </div>

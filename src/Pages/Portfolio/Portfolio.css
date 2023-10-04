@@ -41,6 +41,24 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1440px){
+  .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    margin-left: 1%;
+    height: 100%;
+    background-color: rgba(109, 109, 109 , 0.5);
+    font-size: 2vw;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+}
 
 
 

@@ -7,10 +7,10 @@ const CaseStudy3 = () => {
     return (
         <>
         <div className='container'>
-            <div className='d-flex  mt-5'>
+            <div className='d-flex mt-5 mb-3'>
                 <div className='col-md-5  '>
                     <h1 >Optic Software</h1>
-                    <span >Figma</span>
+                    <span className="Text-bold ">Figma</span>
                 </div>
                 <div className='col-md-5 Margin'>
                 <p >Ui Design for automation tool</p>
@@ -26,7 +26,7 @@ const CaseStudy3 = () => {
                 </div>
 
                 <div className='col-md-12 mb-1'>
-                    <img src={Image3} alt='Project 5' className='img-fluid' />
+                    <img src={Image3} alt='Project 5' className='img-fluid' style={{width: "99.4%"}}/>
                 </div>
 
                

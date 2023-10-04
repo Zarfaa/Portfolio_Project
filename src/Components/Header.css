@@ -31,14 +31,14 @@ nav{
 
 @media screen and (max-width:768px){
     .logo {
-      width: 3vw;
+      width: 2vw;
     }
 }
 
 
 @media screen and (min-width:1440px){
     .logo {
-      width: 3vw;
+      width: 1.5vw;
     }
 
     .marginRight{

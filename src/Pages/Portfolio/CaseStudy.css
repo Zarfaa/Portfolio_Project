@@ -8,7 +8,14 @@
 }
 
 .Margin{
-    margin-left: 10%;
+    margin-left: 9.5%;
+    margin-top: 2%;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.Text-bold{
+    font-size: 1.5vw;
 }
 
 @media screen and (min-width:1440px) {

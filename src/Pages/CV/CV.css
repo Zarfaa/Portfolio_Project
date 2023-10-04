@@ -6,7 +6,7 @@
 .Flex{
     display: flex;
     justify-content: space-between;
-    margin: 2% 10em;
+    margin: 2% 6em;
     gap: 15%;
     flex-wrap: wrap
 }
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2%  5em;
+    margin: 2%  3em;
     gap: 4%;
     flex-wrap: wrap
 }

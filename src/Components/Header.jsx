@@ -50,7 +50,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand marginLeft" href="/">
-          <img className="logo" src={Logo} alt="logo" />
+          <img className="logo me-3" src={Logo} alt="logo" />
           Digital Designer
         </a>
         <button
