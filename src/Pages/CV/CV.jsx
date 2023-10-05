@@ -18,12 +18,10 @@ const CV = () => {
             </div>
           </div>
           <div className='Flex'>
-            <div className="flex_item2 ">
+            <div className="flex_item ">
               <div className='mb-5' >
                 <h3 >Education</h3>
                 <h5 className='mt-3'>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-                <h5>Lorem ipsum dolor</h5>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
               <div className='mb-5'>
@@ -36,7 +34,16 @@ const CV = () => {
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
               <div>
-                <h3>Interests</h3>
+                <h3>Software</h3>
+                <ul class="bullet-list">
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                  <li>Premiere Pro</li>
+                  <li>Figma</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className='mt-5'>Interests</h3>
                 <h5>Humanities</h5>
                 <p>Ancient History, War, Philosophy, and Theology</p>
                 <h5>Literature</h5>
@@ -48,7 +55,7 @@ const CV = () => {
               </div>
             </div>
 
-            <div className="flex_item5 ">
+            <div className="flex_item ">
               <h3>Experience</h3>
               <div className='mt-3'>
                 <h5 >Freelance Graphic Designer</h5>
@@ -59,7 +66,7 @@ const CV = () => {
                   <li>Neque ultricies ultricies et nisi congue sit sed. Rhoncus ultrices facilisis et mauris vel. Morbi elit auctor neque congue id convallis.</li>
                 </ul>
               </div>
-              <div className='mb-4'>
+              <div className='mb-5 mt-5'>
                 <h5>Visual Designer</h5>
                 <p>Lorem ipsum dolor sit</p>
                 <ul class="bullet-list">
@@ -101,15 +108,7 @@ const CV = () => {
                   <li>Written communications</li>
                 </ul>
               </div>
-              <div>
-                <h3>Software</h3>
-                <ul class="bullet-list">
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
-                  <li>Premiere Pro</li>
-                  <li>Figma</li>
-                </ul>
-              </div>
+             
             </div>
 
           </div>

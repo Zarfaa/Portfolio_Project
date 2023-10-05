@@ -6,7 +6,6 @@
 .Flex{
     display: flex;
     justify-content: space-between;
-    margin: 4% ;
     gap: 5em;
     flex-wrap: wrap
 }
@@ -36,22 +35,19 @@
     margin-left: 20%;
 }
 
-.flex_item5 {
-    flex:4
-}
-
-.flex_item2 {
-    flex:3
-}
 
 .flex_item {
-    flex: 3;
+    flex: 1;
 }
 
 .Cv_Container{
     background-color: rgb(43, 37, 48);
     margin: 0;
     line-height: 1.2rem;
+}
+
+.Cv_Container p, .Cv_Container li{
+    font-size: 0.8vw;
 }
 
 
@@ -91,9 +87,8 @@
 
     .Flex{
         display: flex;
-        justify-content: space-between;
         margin: 4% ;
-        gap: 5em;
+        gap: 20em;
         flex-wrap: wrap
     }
 }
