@@ -16,17 +16,17 @@
     justify-content: space-between;
     align-items: center;
     margin: 5em;
-    gap: 5%;
+    gap: 25%;
     flex-wrap: wrap;
     padding-top: 2%;
 }
 
 .Flex_Item1{
-    flex: 2;
+    flex: 1;
 }
 
 .Flex_Item2{
-    flex: 4;
+    flex: 3;
 }
 
 .Flex_Item3{
