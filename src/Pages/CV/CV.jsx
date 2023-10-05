@@ -11,27 +11,27 @@ const CV = () => {
             <div className="Flex_Item1 ">
               <img className='cv_img' src={Photo} alt="profile" />
             </div>
-            <div className="Flex_Item2"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
+            <div className="Flex_Item2"><span>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</span></div>
             <div className="Flex_Item3 text-end">
               <h5 >Lorem ipsum dolor sit</h5>
-              <p className='font'>Lorem ipsum dolor sit amet consectetur Sit malesuada enim massa auctor pharetra purus orci</p>
+              <span className='font'>Lorem ipsum dolor sit amet consectetur Sit malesuada enim massa auctor pharetra purus orci</span>
             </div>
           </div>
           <div className='Flex'>
-            <div className="flex_item ">
+            <div className="flex_item2 ">
               <div className='mb-5' >
                 <h3 >Education</h3>
-                <h5 className='mt-3'>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <h5 className='mt-5'>Lorem ipsum dolor</h5>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
               </div>
               <div className='mb-5'>
                 <h3>Achievments</h3>
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
               </div>
               <div>
                 <h3>Software</h3>
@@ -45,21 +45,21 @@ const CV = () => {
               <div>
                 <h3 className='mt-5'>Interests</h3>
                 <h5>Humanities</h5>
-                <p>Ancient History, War, Philosophy, and Theology</p>
+                <span>Ancient History, War, Philosophy, and Theology</span>
                 <h5>Literature</h5>
-                <p>Historical Non-Fiction and Classical Fiction</p>
+                <span>Historical Non-Fiction and Classical Fiction</span>
                 <h5>Music</h5>
-                <p>Crooner, Classical, Country, Pop Rock, and Classic Rock</p>
+                <span>Crooner, Classical, Country, Pop Rock, and Classic Rock</span>
                 <h5>Exercise</h5>
-                <p>Working out and enjoying the outdoors</p>
+                <span >Working out and enjoying the outdoors</span>
               </div>
             </div>
 
-            <div className="flex_item ">
+            <div className="flex_item2 ">
               <h3>Experience</h3>
               <div className='mt-3'>
                 <h5 >Freelance Graphic Designer</h5>
-                <p>Lorem ipsum dolor sit</p>
+                <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">
                   <li>Lorem ipsum dolor sit amet consectetur. Fusce quam feugiat vehicula proin. Mauris id fermentum sed scelerisque in a. Elementum tellus gravida volutpat ultricies mattis. Turpis urna morbi id posuere vulputate blandit aliquam iaculis.</li>
                   <li>Rhoncus tellus ultricies posuere euismod non sapien. Nibh vivamus faucibus nulla fermentum ac vitae cursus. Lobortis egestas morbi quisque quis tempor at id. In morbi faucibus scelerisque faucibus vestibulum. Scelerisque duis cras convallis morbi.</li>
@@ -68,14 +68,14 @@ const CV = () => {
               </div>
               <div className='mb-5 mt-5'>
                 <h5>Visual Designer</h5>
-                <p>Lorem ipsum dolor sit</p>
+                <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">
                   <li>Lorem ipsum dolor sit amet consectetur. Nunc porttitor iaculis eget eget lacus varius. Aliquet mattis arcu placerat dui sagittis. Augue enim odio vestibulum non pellentesque ac ut mauris ut. Morbi facilisi lectus tristique at tortor. Amet facilisi eu gravida tincidunt lacinia posuere. Sed id auctor molestie pulvinar risus sed neque.</li>
                 </ul>
               </div>
               <div className='mb-5'>
                 <h5>Graphic Designer</h5>
-                <p>Lorem ipsum dolor sit</p>
+                <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">
                   <li>Lorem ipsum dolor sit amet consectetur. Fusce quam feugiat vehicula proin. Mauris id fermentum sed scelerisque in a. Elementum tellus gravida volutpat ultricies mattis. Turpis urna morbi id posuere vulputate blandit aliquam iaculis.</li>
                 </ul>
@@ -86,7 +86,7 @@ const CV = () => {
               <div className='mb-5'>
                 <h3>Contact</h3>
                 <h5 className='mt-3'>Email</h5>
-                <p>Lorem ipsum dolor sit</p>
+                <span>Lorem ipsum dolor sit</span>
               </div>
               <div className='mb-5'>
                 <h3>Languages</h3>
