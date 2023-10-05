@@ -4,9 +4,10 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <>
-    <div className='contact_Container'>
+    <div className='container'>
+    <div className='d-flex justify-content-center gap-5'>
 
-    <div className='col-md-4 col-sm-4 ms-5 Contact_details  '>
+    <div className='col-md-6  Contact_details  '>
       <h4>Get In Touch</h4>
       <p>Lorem ipsum dolor sit amet consectetur. Quis orci sem sit id erat cras ut. Natoque sed hac enim ultrices varius orci posuere in velit. Pellentesque porta ullamcorper amet purus.</p>
       <div className='d-flex gap-5'>
@@ -20,6 +21,7 @@ const Contact = () => {
       <h1 className='text-center text'>You</h1>
     </div>
 
+    </div>
     </div>
     </>
   )
