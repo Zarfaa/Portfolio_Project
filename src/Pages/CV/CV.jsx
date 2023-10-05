@@ -57,7 +57,7 @@ const CV = () => {
 
             <div className="flex_item2 ">
               <h3>Experience</h3>
-              <div className='mt-3'>
+              <div className='mt-3 mt-xs-2'>
                 <h5 >Freelance Graphic Designer</h5>
                 <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">
@@ -66,14 +66,14 @@ const CV = () => {
                   <li>Neque ultricies ultricies et nisi congue sit sed. Rhoncus ultrices facilisis et mauris vel. Morbi elit auctor neque congue id convallis.</li>
                 </ul>
               </div>
-              <div className='mb-5 mt-5'>
+              <div className='mb-5 mb-xs-1 mt-xs-1 mt-5'>
                 <h5>Visual Designer</h5>
                 <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">
                   <li>Lorem ipsum dolor sit amet consectetur. Nunc porttitor iaculis eget eget lacus varius. Aliquet mattis arcu placerat dui sagittis. Augue enim odio vestibulum non pellentesque ac ut mauris ut. Morbi facilisi lectus tristique at tortor. Amet facilisi eu gravida tincidunt lacinia posuere. Sed id auctor molestie pulvinar risus sed neque.</li>
                 </ul>
               </div>
-              <div className='mb-5'>
+              <div className='mb-5 mb-xs-1 '>
                 <h5>Graphic Designer</h5>
                 <span>Lorem ipsum dolor sit</span>
                 <ul class="bullet-list">

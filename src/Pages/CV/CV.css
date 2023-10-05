@@ -1,5 +1,5 @@
 .cv_img{
-    width: 7.8em;
+    width: 10vw;
     border-radius: 50%;
 }
 
@@ -69,18 +69,100 @@
     .Cv_Container h4{
         font-size: 1.8vw;
     }
-    .Cv_Container h5,   .Cv_Container span{
-        font-size: 1.6vw;
-    }
 
-    .Cv_Container li{
+    .Cv_Container h5,   .Cv_Container span{
         font-size: 1.5vw;
     }
 
     .Cv_Container{
         background-color: rgb(20, 18, 34);
         padding: 0%;
-        line-height: 1rem;
+        line-height: 0.8rem;
+    }
+
+    .Flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em;
+        flex-wrap: wrap;
+        padding-top: 2%;
+    }
+    
+    .Flex_Item3{
+        flex: 1.8;
+        margin-left: 5%;
+    }
+
+    .Cv_Container li{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Cv_Container p{
+        font-size: 1.5vw;
+    }
+
+    .Cv_Container h3{
+        font-size: 2vw;
+    }
+
+    .Cv_Container h4{
+        font-size: 1.8vw;
+    }
+
+    .Cv_Container h5,   .Cv_Container span{
+        font-size: 1.5vw;
+    }
+
+    .Cv_Container{
+        background-color: rgb(20, 18, 34);
+        padding: 0%;
+        line-height: 0.5rem;
+    }
+
+    .Flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em;
+        flex-wrap: wrap;
+        padding-top: 2%;
+    }
+    
+    .Flex_Item3{
+        flex: 1.8;
+        margin-left: 5%;
+    }
+
+    .Cv_Container li{
+        font-size: 0.5em;
+    }
+
+    .Flex{
+        display: flex;
+        justify-content: space-between;
+        margin: 4%;
+        gap: 2em;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+    }
+    
+    .Flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em;
+        flex-wrap: wrap;
+        padding-top: 2%;
+    }
+    .flex_item {
+        flex: 1;
+    }
+    
+    .flex_item2{
+        flex: 1.5;
     }
 }
 
@@ -97,4 +179,19 @@
         flex-wrap: wrap
     }
 }
+
+@media screen and (width:1440px){
+    .Flex_Item3{
+        flex: 1.8;
+        margin-left: 40%;
+    }
+
+    .Flex{
+        display: flex;
+        margin: 4% ;
+        gap: 10em;
+        flex-wrap: wrap
+    }
+}
+
 

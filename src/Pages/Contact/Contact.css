@@ -40,7 +40,7 @@
     
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1500px){
 
     .text{
         font-weight: 900;
@@ -51,6 +51,17 @@
     
 }
 
+
+@media screen and (min-width: 2500px){
+
+    .text{
+        font-weight: 900;
+        font-size: 3.5rem;
+        color: rgb(109, 109, 109);
+        margin-left: 5%;
+    }
+    
+}
 @media screen and (width: 1024px) {
 
     .text{
