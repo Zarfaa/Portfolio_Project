@@ -70,7 +70,7 @@ const Header = () => {
   return (
     <nav className={`navbar navbar-expand-lg ${visible ? "navbar-scroll-down" : "navbar-scroll-up"}`}>
       <div className="container-fluid">
-        <a className="navbar-brand marginLeft" href="/">
+        <a className="navbar-brand " href="/">
           <img className="logo me-3" src={Logo} alt="logo" />
           Digital Designer
         </a>

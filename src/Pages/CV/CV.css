@@ -1,5 +1,5 @@
 .cv_img{
-    width: 10vw;
+    width: 7.8em;
     border-radius: 50%;
 }
 
@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 5em;
-    gap: 25%;
+    gap: 2em;
     flex-wrap: wrap;
     padding-top: 2%;
 }
@@ -26,11 +26,12 @@
 }
 
 .Flex_Item2{
-    flex: 3;
+    flex: 5;
 }
 
 .Flex_Item3{
-    flex: 3;
+    flex: 1.8;
+    margin-left: 22%;
 }
 
 .flex_item5 {

@@ -23,14 +23,12 @@ nav{
 }
 
 .marginRight{
-   padding-right: 5em;
+   padding-right: 3em;
 }
 
-.marginLeft{
-    padding-left: 3em;
- }
- 
-
+.logo{
+  margin-left: 2.5em;
+}
 .navbar-brand{
     color: rgb(255,255,255);
     font-weight: 700;
