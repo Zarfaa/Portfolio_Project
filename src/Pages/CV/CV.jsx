@@ -12,16 +12,16 @@ const CV = () => {
               <img className='cv_img' src={Photo} alt="profile" />
             </div>
             <div className="Flex_Item2"><p>Lorem ipsum dolor sit amet consectetur. Eu turpis ut pretium egestas odio velit. Malesuada non sed bibendum tortor platea risus. Egestas accumsan porta mauris cursus. Urna sed et dictum turpis proin blandit. Sed sociis aliquet aenean felis sit.</p></div>
-            <div className="Flex_Item3">
-              <h5>Lorem ipsum dolor sit</h5>
-              <p>Lorem ipsum dolor sit amet consectetur <br />Sit malesuada enim massa auctor pharetra purus orci</p>
+            <div className="Flex_Item3 text-end">
+              <h5 >Lorem ipsum dolor sit</h5>
+              <p className='font'>Lorem ipsum dolor sit amet consectetur Sit malesuada enim massa auctor pharetra purus orci</p>
             </div>
           </div>
           <div className='Flex'>
             <div className="flex_item2 ">
               <div className='mb-5' >
-                <h3>Education</h3>
-                <h5>Lorem ipsum dolor</h5>
+                <h3 >Education</h3>
+                <h5 className='mt-3'>Lorem ipsum dolor</h5>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <h5>Lorem ipsum dolor</h5>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -50,19 +50,20 @@ const CV = () => {
 
             <div className="flex_item5 ">
               <h3>Experience</h3>
-              <div className='mt-2 mb-5'>
+              <div className='mt-3'>
                 <h5 >Freelance Graphic Designer</h5>
                 <p>Lorem ipsum dolor sit</p>
                 <ul class="bullet-list">
                   <li>Lorem ipsum dolor sit amet consectetur. Fusce quam feugiat vehicula proin. Mauris id fermentum sed scelerisque in a. Elementum tellus gravida volutpat ultricies mattis. Turpis urna morbi id posuere vulputate blandit aliquam iaculis.</li>
+                  <li>Rhoncus tellus ultricies posuere euismod non sapien. Nibh vivamus faucibus nulla fermentum ac vitae cursus. Lobortis egestas morbi quisque quis tempor at id. In morbi faucibus scelerisque faucibus vestibulum. Scelerisque duis cras convallis morbi.</li>
                   <li>Neque ultricies ultricies et nisi congue sit sed. Rhoncus ultrices facilisis et mauris vel. Morbi elit auctor neque congue id convallis.</li>
                 </ul>
               </div>
-              <div className='mb-5'>
+              <div className='mb-4'>
                 <h5>Visual Designer</h5>
                 <p>Lorem ipsum dolor sit</p>
                 <ul class="bullet-list">
-                  <li>Lorem ipsum dolor sit amet consectetur. Fusce quam feugiat vehicula proin. Mauris id fermentum sed scelerisque in a. Elementum tellus gravida volutpat ultricies mattis. Turpis urna morbi id posuere vulputate blandit aliquam iaculis.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur. Nunc porttitor iaculis eget eget lacus varius. Aliquet mattis arcu placerat dui sagittis. Augue enim odio vestibulum non pellentesque ac ut mauris ut. Morbi facilisi lectus tristique at tortor. Amet facilisi eu gravida tincidunt lacinia posuere. Sed id auctor molestie pulvinar risus sed neque.</li>
                 </ul>
               </div>
               <div className='mb-5'>
@@ -77,16 +78,16 @@ const CV = () => {
             <div className="flex_item ms-3 ">
               <div className='mb-5'>
                 <h3>Contact</h3>
-                <h5>Email</h5>
+                <h5 className='mt-3'>Email</h5>
                 <p>Lorem ipsum dolor sit</p>
               </div>
               <div className='mb-5'>
                 <h3>Languages</h3>
-                <h5>English</h5>
+                <h5 className='mt-3'>English</h5>
                 <span>Fluent</span>
-                <h5>Spanish</h5>
+                <h5 className='mt-3'>Spanish</h5>
                 <span>Beginner</span>
-                <h5>Latin</h5>
+                <h5 className='mt-3'>Latin</h5>
                 <span>Beginner</span>
               </div>
               <div className='mb-5'>
