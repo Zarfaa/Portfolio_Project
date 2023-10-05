@@ -169,21 +169,7 @@
 @media screen and (min-width:1440px){
     .Flex_Item3{
         flex: 1.8;
-        margin-left: 40%;
-    }
-
-    .Flex{
-        display: flex;
-        margin: 4% ;
-        gap: 25em;
-        flex-wrap: wrap
-    }
-}
-
-@media screen and (width:1440px){
-    .Flex_Item3{
-        flex: 1.8;
-        margin-left: 40%;
+        margin-left: 25%;
     }
 
     .Flex{
