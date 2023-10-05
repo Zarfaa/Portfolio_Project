@@ -5,7 +5,8 @@ body {
 
  
 .Container {
-    margin: 20% 0%;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
 }
 
 .Container h1 /* TITLE HERE*/
@@ -19,3 +20,4 @@ body {
     font-weight: 650;
     font-size: 3vw;
 }
+

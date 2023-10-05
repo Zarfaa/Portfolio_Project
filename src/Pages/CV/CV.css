@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     margin: 4% ;
-    gap: 25em;
+    gap: 5em;
     flex-wrap: wrap
 }
 
@@ -33,7 +33,7 @@
 
 .Flex_Item3{
     flex: 1.8;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 
 .flex_item5 {
@@ -83,4 +83,18 @@
     }
 }
 
+@media screen and (min-width:1440px){
+    .Flex_Item3{
+        flex: 1.8;
+        margin-left: 40%;
+    }
+
+    .Flex{
+        display: flex;
+        justify-content: space-between;
+        margin: 4% ;
+        gap: 5em;
+        flex-wrap: wrap
+    }
+}
 
