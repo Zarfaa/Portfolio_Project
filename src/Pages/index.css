@@ -5,8 +5,8 @@ body {
 
  
 .Container {
-    margin-top: 20vw;
-    margin-bottom: 20vw;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
 }
 
 .Container h1 /* TITLE HERE*/
@@ -21,3 +21,9 @@ body {
     font-size: 3vw;
 }
 
+@media screen and (min-width: 1440px){
+    .Container {
+        margin-top: 20vw;
+        margin-bottom: 20vw;
+    }
+}
