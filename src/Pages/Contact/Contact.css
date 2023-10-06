@@ -87,6 +87,10 @@
         text-align: end;
      }
      
+     .Top{
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
     
 }
 
@@ -103,6 +107,11 @@
         margin-left: -7%;
         text-align: end;
      }
+
+     .Top{
+        margin-top: 55%;
+        margin-bottom: 10%;
+    }
      
 }
 
