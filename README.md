@@ -3,13 +3,9 @@ Personal Portfolio website
 
 ## Run Locally
 
-`Clone the project -- git clone https://github.com/Zarfaa/Portfolio_Project`<br><br>
+`Install dependencies: npm install`<br>
 
-`Go to the project directory: cd portfolio-app`<br><br>
-
-`Install dependencies: npm install`<br><br>
-
-`Start the server: npm start`<br><be>
+`Start the server: npm start`<br>
 
 # Tech Stack
 - React Js
