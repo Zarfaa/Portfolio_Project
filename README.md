@@ -3,7 +3,7 @@ Personal Portfolio website
 
 ## Run Locally
 
-`Clone the project -- git clone https://github.com/Zarfaa/Portfolio`<br><br>
+`Clone the project -- git clone https://github.com/Zarfaa/Portfolio_Project`<br><br>
 
 `Go to the project directory: cd portfolio-app`<br><br>
 
