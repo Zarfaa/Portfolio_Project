@@ -1,8 +1,18 @@
+.margin-left{
+   margin-left: 42%;
+   text-align: end;
+}
+
+.Conatct_Flex{
+ display: flex;
+ justify-content: center;
+ gap: 5%;
+}
 
 
 .text_vertical{
     writing-mode: vertical-rl; 
-    text-orientation:  mixed; 
+    text-orientation: mixed; 
     white-space: nowrap; 
     font-weight: 900;
     font-size: 9rem;
@@ -13,21 +23,24 @@
     font-weight: 900;
     font-size: 3rem;
     color: rgb(109, 109, 109);
+    margin-left: 100%;
 }
 
 .Contact_details {
     margin-top: 15%;
 }
 
-
-
+.Top{
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
 @media screen and (min-width: 1400px){
 
     .text{
         font-weight: 900;
         font-size: 3.5rem;
         color: rgb(109, 109, 109);
-        margin-left: -10%;
+        margin-left: 75%;
     }
     
 }
@@ -38,8 +51,15 @@
         font-weight: 900;
         font-size: 3.5rem;
         color: rgb(109, 109, 109);
-        margin-left: -8%;
+        margin-left: 75%;
     }
+
+    .margin-left{
+        margin-left: 42%;
+        text-align: end;
+     }
+     
+ 
   
 }
 
@@ -49,7 +69,7 @@
         font-weight: 900;
         font-size: 3.5rem;
         color: rgb(109, 109, 109);
-        margin-left: -8%;
+        margin-left: 75%;
     }
     
 }
@@ -59,20 +79,31 @@
         font-weight: 800;
         font-size: 3rem;
         color: rgb(109, 109, 109);
-          margin-left: 25%;
+          margin-left: 68%;
     }
+
+    .margin-left{
+        margin-left: 20%;
+        text-align: end;
+     }
+     
     
 }
 
 @media screen and (width: 768px) {
 
     .text{
-        font-weight: 800;
+        font-weight: 900;
         font-size: 3rem;
         color: rgb(109, 109, 109);
-        margin-left: 70%;
+        margin-left: 60%;
     }
     
+    .margin-left{
+        margin-left: -7%;
+        text-align: end;
+     }
+     
 }
 
 
@@ -83,7 +114,14 @@
         font-weight: 700;
         font-size: 1.8rem;
         color: rgb(109, 109, 109);
+        margin-left: 72%;
     }
+    
+    .margin-left{
+        margin-left: 39%;
+        text-align: end;
+     }
+     
 
     .text_vertical{
         writing-mode: vertical-rl; 
